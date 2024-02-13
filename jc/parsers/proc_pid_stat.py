@@ -239,6 +239,7 @@ def _process(proc_data: Dict) -> Dict:
         'K': 'Wakekill',
         'W': 'Waking',
         'P': 'Parked',
+        'I': 'Idle,
     }
 
     if 'state' in proc_data:
